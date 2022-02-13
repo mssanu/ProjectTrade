@@ -1,0 +1,32 @@
+
+.Popular{
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    width: 200px;
+}
+.Details>h5{
+    margin: 0px;
+}
+.Details{
+    color:rgb(52, 131, 155) ;
+}
+.profile>img{
+    border-radius: 55px;
+    height: 30px;
+    margin-right: 10px;
+}
+.profile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 0px;
+    justify-content: space-between;
+}
+.Rating{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}

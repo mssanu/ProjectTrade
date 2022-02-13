@@ -1,0 +1,35 @@
+
+
+.Footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100vw;
+    flex-wrap: wrap;
+    margin-right: 30px;   
+    background-color: rgb(183, 236, 231);
+}
+.Log >img{
+    margin-right:15px ;
+}
+.Footer-1{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    text-align: left;
+    margin-left: 15px;
+}
+.Footer-1>p{
+    margin-top: 0px;
+}
+.Footer-Child > h3{
+    color:rgb(19, 172, 156) ;
+}
+.Footer-Child{
+    margin-right: 25px;
+}
+.Social-medias{
+    display: flex;
+    align-items: flex-end;
+}

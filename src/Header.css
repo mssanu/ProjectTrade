@@ -1,0 +1,95 @@
+.Header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    align-content: space-between;
+    justify-content: space-between;
+}
+.Sto{
+    display: none;
+}
+.Mobiles{
+    display: none;
+}
+/* .Mobiles.active{
+    display: none;
+} */
+.ShoppingBasketIcon{
+    display: none;
+}
+.input{
+    border: 1px solid gray;
+    text-align: center;
+    border-radius: 15px;
+    height: 30px;
+    text-align: left;
+    
+}
+.Avatar{
+    
+}
+.Log{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+.left-menu{
+    display: flex;
+    margin-right: 10px;
+    
+    
+}
+.left-menu >p {
+    margin-left: 35px;
+}
+.Log>p>p{
+    margin-bottom: 0%;
+}
+.Log>p>h2{
+    margin-top: 0%;
+}
+@media (max-width:700px) {
+    .left-menu{
+        display: none;
+    }   
+    .Mobiles.active{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        position: right;
+        width: 100%;
+    }
+    .Log>p{
+        display: none;
+
+    }
+    
+    .log{
+        display: flex;
+        margin-left: 10px;
+        align-items: center;
+        right: 0;
+        transition: 351ms;
+    }
+    .Mobiles {
+        background-color: whitesmoke;
+        width: 250px;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        color: #1a83ff;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        transition: 850ms;
+    }
+    .Sto{
+        
+        display: block;
+      }
+      .Storage{
+          display: block;
+      }
+}

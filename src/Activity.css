@@ -1,0 +1,9 @@
+.Acti{
+    display: flex;
+    background-color: whitesmoke;
+    width: 350px;
+    align-items: center;
+    height: 200px;
+    padding: 10px;
+    margin: 10px;
+}

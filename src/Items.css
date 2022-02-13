@@ -1,0 +1,13 @@
+.Ite{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    align-items: center;
+    border-radius: 15px;
+    margin: 15px;
+    border-right: 10px snow gray;
+    height: 150px;
+    box-shadow: -25px 15px 20px rgba(0, 0, 0, 0.43);
+    background-color: whitesmoke;
+    justify-content: space-around;
+}
