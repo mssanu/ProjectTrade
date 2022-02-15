@@ -8,7 +8,9 @@ import InstagramIcon from '@material-ui/icons/Instagram';
 
 function Footer() {
   return (
+    <div className='Entaie'>
     <div className='Footer'>
+      
         <div className='Footer-1'>
         <div className='Log'>
         <img alt='' src={Logo} height="40px" width="40px"></img>
@@ -45,6 +47,7 @@ function Footer() {
         <p>Lorem ipsum</p>
         <p>Lorem ipsum</p>
         </div>
+        </div>
         <div className='Social-medias'>
             <LinkedInIcon/>
             <TwitterIcon/>
@@ -52,6 +55,7 @@ function Footer() {
             <InstagramIcon/>
         </div>
 
+    
     </div>
   )
 }

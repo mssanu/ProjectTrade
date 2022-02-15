@@ -1,5 +1,11 @@
 
-
+.Entaie{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(183, 236, 231);
+    align-items: center;
+    justify-content: space-between;
+}
 .Footer{
     display: flex;
     flex-direction: row;
@@ -8,7 +14,7 @@
     width: 100vw;
     flex-wrap: wrap;
     margin-right: 30px;   
-    background-color: rgb(183, 236, 231);
+    
 }
 .Log >img{
     margin-right:15px ;

@@ -1,6 +1,6 @@
 .Header{
     display: flex;
-    flex-direction: row;
+    flex-direction: row; 
     align-items: center;
     flex-wrap: wrap;
     width: 100vw;
@@ -10,7 +10,7 @@
 .Sto{
     display: none;
 }
-.Mobiles{
+.Mobile{
     display: none;
 }
 /* .Mobiles.active{
@@ -22,13 +22,18 @@
 .input{
     border: 1px solid gray;
     text-align: center;
-    border-radius: 15px;
-    height: 30px;
+    border-radius: 5px;
+    height: 35px;
+    padding-left: 15px;
     text-align: left;
+    border:none;
+    background-color: whitesmoke;
+    font-size: 15px;
     
 }
 .Avatar{
-    
+    display:flex;
+    margin-right: 25px;
 }
 .Log{
     display: flex;
@@ -43,6 +48,10 @@
 }
 .left-menu >p {
     margin-left: 35px;
+}
+.left-menu p :hover{
+    background:whitesmoke;
+    max-zoom: 100px;
 }
 .Log>p>p{
     margin-bottom: 0%;
@@ -84,12 +93,11 @@
         top: 0;
         right: -100%;
         transition: 850ms;
-    }
-    .Sto{
-        
-        display: block;
-      }
-      .Storage{
+    } .Storage{
           display: block;
       }
+    .Sto{
+        display: block;
+      }
+     
 }
